@@ -1,0 +1,54 @@
+.header {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 44px;
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 537px;
+
+        img {
+            width: 175px;
+            height: 33px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            width: 321px;
+
+            li {
+                
+            }
+        }
+    }
+
+    .auth{
+        width: 164px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .signin{
+            font-size: 16px;
+            background-color: none;
+            border: none;
+        }
+        .signup{
+            width: 97px;
+            height: 44px;
+            font-size: 16px;
+            border-radius: 8px;
+            color: #fff;
+            border: none;
+            background-color: rgb(77, 119, 255);
+        }
+    }
+}
